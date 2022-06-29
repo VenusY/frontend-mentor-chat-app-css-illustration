@@ -317,6 +317,7 @@ body {
   .container {
     width: 363px; /* To line the background pattern up with the iPhone notch */
     height: 90%;
+    max-height: 720px; /* To prevent the purple background pattern from moving behind the phone's shadow */
   }
 
   #phone {
